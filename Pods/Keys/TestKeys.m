@@ -35,14 +35,14 @@ static NSString *_podKeys3c6e0b8a9c15224a8228b9a98ca1531d(TestKeys *self, SEL _c
 {
   
     
-      char cString[6] = { TestKeysData[124], TestKeysData[64], TestKeysData[24], TestKeysData[114], TestKeysData[81], '\0' };
+      char cString[7] = { TestKeysData[23], TestKeysData[53], TestKeysData[88], TestKeysData[70], TestKeysData[97], TestKeysData[24], '\0' };
     
     return [NSString stringWithCString:cString encoding:NSUTF8StringEncoding];
   
 }
 
 
-static char TestKeysData[130] = "7TpyQWhJRRWMAckWF2C2qF+vlPZVjQ60TLWAfK8ADwmlm5HcIyDw8RYmwTRkL+WEaXHO7Fhk/uT2dVOaxe/6WGS86crfgBBBixKdITBMpXLjfVSRWhuQZT9mbLfRvJP/s5\"";
+static char TestKeysData[150] = "Lh/Far2iaSAsWx5kBfU48K9v28WaaiowTieRgcEtT+uMziCIFVL1aai/SvbepZfcmMmDxDugJP1vnOhFXa+jOHI+lGk7O9gprew9QARtc9sedIhUCUucImQbcg6ZraOJcj+3trrtjiMXhWawFfmm2u\"";
 
 - (NSString *)description
 {
